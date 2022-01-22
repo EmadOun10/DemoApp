@@ -7,10 +7,10 @@ A sample android app that shows how to use coroutines, hilt-dagger and mvvm in K
 * MVVM
 * Clean Architecture
 
-Libraries
-Coroutines
-Dagger (Hilt)
-Retrofit
-gson
-okhttp
-Timber
+# Libraries
+* Coroutines
+* Dagger (Hilt)
+* Retrofit
+* gson
+* okhttp
+* Timber
