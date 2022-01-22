@@ -30,7 +30,7 @@ class RetrofitModule {
     client: OkHttpClient,
     gson: Gson,
   ): Retrofit = Retrofit.Builder()
-    .baseUrl(BuildConfig.BASE_URL_FIRST)
+    .baseUrl(BuildConfig.BASE_URL_CURRENCY)
     .addCallAdapterFactory(CoroutineCallAdapterFactory())
     .addConverterFactory(GsonConverterFactory.create(gson))
     .client(client)
@@ -43,7 +43,7 @@ class RetrofitModule {
     client: OkHttpClient,
     gson: Gson,
   ): Retrofit = Retrofit.Builder()
-    .baseUrl(BuildConfig.BASE_URL_SECOND)
+    .baseUrl(BuildConfig.BASE_URL_FACT)
     .addCallAdapterFactory(CoroutineCallAdapterFactory())
     .addConverterFactory(GsonConverterFactory.create(gson))
     .client(client)

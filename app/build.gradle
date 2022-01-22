@@ -14,8 +14,8 @@ android {
         targetSdk 31
         versionCode 1
         versionName "1.0"
-        buildConfigField("String", "BASE_URL_FIRST", "\"https://api2.binance.com/\"")
-        buildConfigField("String", "BASE_URL_SECOND", "\"https://catfact.ninja/\"")
+        buildConfigField("String", "BASE_URL_CURRENCY", "\"https://api2.binance.com/\"")
+        buildConfigField("String", "BASE_URL_FACT", "\"https://catfact.ninja/\"")
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
